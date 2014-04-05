@@ -23,7 +23,7 @@ function busy() {
   var workers = [];
   var lang = process.argv[2] || settings.lang;
   var langPath = path.join(settings.langs, lang);
-  if (langs.indexOf(lang) === -1) return settings.tip(new Error('lang not supported.'));
+  if (langs.indexOf(lang) === -1) return settings.tip(new Error('lang is not supported.'));
 
   finder.tips(langPath, function(err, tips) {
     if (err) return settings.tip(err);

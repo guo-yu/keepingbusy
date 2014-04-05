@@ -1,7 +1,7 @@
 {
   "name": "keepingbusy",
   "version": "0.0.1",
-  "description": "a cli tool which help you to pretend to be very busy",
+  "description": "a cli tool which help you pretending to be very very busy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
